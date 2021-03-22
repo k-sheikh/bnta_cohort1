@@ -1,0 +1,16 @@
+<html>
+    <header>
+        <title>Popular Authors - {% block title %}{% endblock %}</title>
+    </header>
+    <body>
+        <div id="menu">
+            <p>Menu:</p>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/books">Books list</a></li>
+            </ul>
+        </div>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
