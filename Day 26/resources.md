@@ -19,3 +19,6 @@
 * [Alembic](https://alembic.sqlalchemy.org/en/latest/)
 * [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)
 * [Jinja2 - Flask's default templating language](https://jinja.palletsprojects.com/en/2.11.x/)
+
+SQL Injection
+* [SQL Injection Computerfile explanatory video](https://www.youtube.com/watch?v=_jKylhJtPmI)
