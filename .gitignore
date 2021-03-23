@@ -18,3 +18,16 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints/
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
+
+# Virtual environments
+.env
+
+# Demo database - created during demo
+books_and_authors.sqlite
+
+# Cached Python bytecode
+__pycache__
+*.pyc
+
+# PyCharm files
+.idea
