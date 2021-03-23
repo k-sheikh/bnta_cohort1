@@ -22,9 +22,6 @@ ipython_config.py
 # Virtual environments
 .env
 
-# Demo database - created during demo
-books_and_authors.sqlite
-
 # Cached Python bytecode
 __pycache__
 *.pyc
