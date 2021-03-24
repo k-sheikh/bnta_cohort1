@@ -1,4 +1,4 @@
-from flask import Flask, render_template, flash, redirect, url_for
+from flask import Flask, render_template, flash, redirect, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_admin import Admin
@@ -76,12 +76,17 @@ def login():
     if not form.validate_on_submit():
         return render_template('login.html', form=form)
 
+    redir = request.args.get('next')
     user = User.query.filter_by(username=form.username.data).first()
     if user is None or not user.check_password(form.password.data):
         flash('Invalid username or password')
+        if redir:
+            return redirect(url_for(redir[1:]))
         return redirect(url_for('login'))
 
     login_user(user)
+    if redir:
+        return redirect(url_for(redir[1:]))
     return redirect(url_for('index'))
 
 
