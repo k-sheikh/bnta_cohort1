@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Books for author{% endblock %}
+
+{% block extra_header_contents %}
+    <script src="{{ url_for('static', filename='books_for_author.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    <h1>Books by one author</h1>
+
+    <select id="author_id">
+        <option value="-1">Select an Author</option>
+    {% for author in authors %}
+        <option value="{{ author.id }}">{{ author.name }}</option>
+    {% endfor %}
+    </select>
+
+    <hr>
+
+    <div id="book_list"><p>(No books found. Select an author)</p></div>
+{% endblock %}
