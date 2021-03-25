@@ -1,0 +1,21 @@
+<html>
+    <header>
+        <title>Popular Authors - {% block title %}{% endblock %}</title>
+    </header>
+    <body>
+        <div id="menu">
+            <p>Menu:</p>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="{% url 'logout' %}">Log out</a></li>
+                <li><a href="{% url 'login' %}">Log in</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/books">Books list</a></li>
+                <li><a href="/new_author">Add an author</a></li>
+                <li><a href="/books_for_author">Books for an author</a></li>
+            </ul>
+        </div>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>

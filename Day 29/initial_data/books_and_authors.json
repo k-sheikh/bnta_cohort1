@@ -1,0 +1,348 @@
+[
+    {
+        "model": "pages.author",
+        "pk": 1,
+        "fields": {
+            "name": "Ursula K. Le Guin",
+            "year_of_birth": 1929
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 2,
+        "fields": {
+            "name": "Charlotte Bront\u00eb",
+            "year_of_birth": 1818
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 3,
+        "fields": {
+            "name": "Madeleine L'Engle",
+            "year_of_birth": 1918
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 4,
+        "fields": {
+            "name": "Charles Dickens",
+            "year_of_birth": 1812
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 5,
+        "fields": {
+            "name": "H.G. Wells",
+            "year_of_birth": 1866
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 6,
+        "fields": {
+            "name": "Arthur C. Clarke",
+            "year_of_birth": 1917
+        }
+    },
+    {
+        "model": "pages.author",
+        "pk": 7,
+        "fields": {
+            "name": "Harper Lee",
+            "year_of_birth": 1926
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 1,
+        "fields": {
+            "title": "The First Men in the Moon",
+            "year_of_publication": 1901,
+            "copies_sold": 0,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 2,
+        "fields": {
+            "title": "Villette",
+            "year_of_publication": 1853,
+            "copies_sold": 5,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 3,
+        "fields": {
+            "title": "The Professor",
+            "year_of_publication": 1857,
+            "copies_sold": 0,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 4,
+        "fields": {
+            "title": "Shirley",
+            "year_of_publication": 1849,
+            "copies_sold": 10,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 5,
+        "fields": {
+            "title": "Rendezvous with Rama",
+            "year_of_publication": 1972,
+            "copies_sold": 0,
+            "author_id": 6
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 6,
+        "fields": {
+            "title": "The Time Machine",
+            "year_of_publication": 1895,
+            "copies_sold": 0,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 7,
+        "fields": {
+            "title": "A Winter's Love",
+            "year_of_publication": 1957,
+            "copies_sold": 0,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 8,
+        "fields": {
+            "title": "The Other Wind",
+            "year_of_publication": 2001,
+            "copies_sold": 0,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 9,
+        "fields": {
+            "title": "The Island of Doctor Moreau",
+            "year_of_publication": 1896,
+            "copies_sold": 0,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 10,
+        "fields": {
+            "title": "Tehanu",
+            "year_of_publication": 1990,
+            "copies_sold": 0,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 11,
+        "fields": {
+            "title": "Oliver Twist",
+            "year_of_publication": 1837,
+            "copies_sold": 0,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 12,
+        "fields": {
+            "title": "The Songs of Distant Earth",
+            "year_of_publication": 1986,
+            "copies_sold": 0,
+            "author_id": 6
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 13,
+        "fields": {
+            "title": "The Love Letters",
+            "year_of_publication": 1966,
+            "copies_sold": 0,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 14,
+        "fields": {
+            "title": "David Copperfield",
+            "year_of_publication": 1849,
+            "copies_sold": 0,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 15,
+        "fields": {
+            "title": "Ilsa",
+            "year_of_publication": 1946,
+            "copies_sold": 0,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 16,
+        "fields": {
+            "title": "The Old Curiosity Shop",
+            "year_of_publication": 1840,
+            "copies_sold": 0,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 17,
+        "fields": {
+            "title": "The Invisible Man",
+            "year_of_publication": 1897,
+            "copies_sold": 0,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 18,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "year_of_publication": 1960,
+            "copies_sold": 0,
+            "author_id": 7
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 19,
+        "fields": {
+            "title": "2001: A Space Odyssey",
+            "year_of_publication": 1968,
+            "copies_sold": 0,
+            "author_id": 6
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 20,
+        "fields": {
+            "title": "A Wizard of Earthsea",
+            "year_of_publication": 1968,
+            "copies_sold": 0,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 21,
+        "fields": {
+            "title": "The Other Side of the Sun",
+            "year_of_publication": 1971,
+            "copies_sold": 0,
+            "author_id": 3
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 22,
+        "fields": {
+            "title": "The Farthest Shore",
+            "year_of_publication": 1972,
+            "copies_sold": 0,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 23,
+        "fields": {
+            "title": "Jane Eyre",
+            "year_of_publication": 1847,
+            "copies_sold": 0,
+            "author_id": 2
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 24,
+        "fields": {
+            "title": "The War of the Worlds",
+            "year_of_publication": 1898,
+            "copies_sold": 0,
+            "author_id": 5
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 25,
+        "fields": {
+            "title": "Nicholas Nickleby",
+            "year_of_publication": 1838,
+            "copies_sold": 0,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 26,
+        "fields": {
+            "title": "A Christmas Carol",
+            "year_of_publication": 1843,
+            "copies_sold": 0,
+            "author_id": 4
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 27,
+        "fields": {
+            "title": "The Tombs of Atuan",
+            "year_of_publication": 1971,
+            "copies_sold": 0,
+            "author_id": 1
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 28,
+        "fields": {
+            "title": "Go Set a Watchman",
+            "year_of_publication": 2015,
+            "copies_sold": 0,
+            "author_id": 7
+        }
+    },
+    {
+        "model": "pages.book",
+        "pk": 29,
+        "fields": {
+            "title": "Certain Women",
+            "year_of_publication": 1992,
+            "copies_sold": 0,
+            "author_id": 3
+        }
+    }
+]
