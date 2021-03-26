@@ -1,4 +1,4 @@
-"""empty message
+"""Add User entity
 
 Revision ID: 17d3e7115996
 Revises: 28fd3cdc6c38
