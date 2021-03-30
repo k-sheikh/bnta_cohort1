@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 const port = 3000;
 const URI =
-  "mongodb+srv://nenoch:Arise2007@cluster0.ugszg.mongodb.net/retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.ugszg.mongodb.net/retryWrites=true&w=majority";
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
